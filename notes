@@ -1,0 +1,35 @@
+
+
+
+Binary 
+if(name === "po"){
+document.getElementById("char-info").innerHTML = `
+    <img src="question-mark.png" alt="kung fu panda character" />
+        <h2>??????</h2>
+        <p class="quote">----------</p>`;
+}else{
+    document.getElementById("char-info").innerHTML = `
+    <img src="po.png" alt="kung fu panda character" />
+        <h2>Po</h2>
+        <p class="quote">"Buddy, I am the Dragon Warrior"</p>`;
+}
+unary 
+if(name === "po"){
+    document.getElementById("char-info").innerHTML = `
+    <img src="po.png" alt="kung fu panda character" />
+        <h2>Po</h2>
+        <p class="quote">"Buddy, I am the Dragon Warrior"</p>`;    
+
+}
+  chained      
+  if(name === "po"){
+    document.getElementById("char-info").innerHTML = `
+    <img src="po.png" alt="kung fu panda character" />
+        <h2>Po</h2>
+        <p class="quote">"Buddy, I am the Dragon Warrior"</p>`;
+    } else if (name === "mantis"){
+        document.getElementById("char-info").innerHTML = `
+        <img src="mantis.png" alt="kung fu panda character" />
+            <h2>mantis</h2>
+            <p class="quote">"Fear the bug!"</p>`;
+    }
